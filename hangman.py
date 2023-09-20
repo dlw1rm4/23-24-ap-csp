@@ -27,11 +27,14 @@ drtrt.left(90)
 drtrt.forward(50)
 
 def head(): 
+    drtrt.fillcolor('yellow')
+    drtrt.begin_fill()
     drtrt.penup()
     drtrt.goto(-50, 150)
     drtrt.pendown()
     drtrt.setheading(180)
     drtrt.circle(25)
+    drtrt.end_fill()
 def body():
     drtrt.penup()
     drtrt.goto(-50, 100)
