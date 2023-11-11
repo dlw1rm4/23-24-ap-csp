@@ -1,0 +1,5 @@
+Ash,36
+Brock,24
+Serena,22
+Red,21
+Clemont,15
